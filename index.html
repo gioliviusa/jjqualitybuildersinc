@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JJ Quality Builders | Fort Lauderdale Roofers — Free Estimates</title>
+<meta name="description" content="Fort Lauderdale roofing contractor. Roof repair, replacement, storm damage & inspections. Licensed & insured, 25-year workmanship warranty. Free estimates — call (305) 300-3937.">
+<meta name="theme-color" content="#0A1E2E">
+<meta name="format-detection" content="telephone=yes">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --navy:#0A1E2E;
+  --navy-2:#12314A;
+  --accent:#FF6B1A;
+  --accent-dark:#E85A0C;
+  --ink:#12212E;
+  --body:#4A5C6B;
+  --line:#E3E8EC;
+  --soft:#F5F7F9;
+  --radius:16px;
+  --shadow-sm:0 2px 10px rgba(10,30,46,.06);
+  --shadow:0 10px 30px rgba(10,30,46,.10);
+  --header-h:62px;
+  --bar-h:64px;
+  --wrap:1120px;
+}
+
+/* ============ RESET ============ */
+*,*::before,*::after{box-sizing:border-box}
+html{
+  -webkit-text-size-adjust:100%;
+  scroll-behavior:smooth;
+  scroll-padding-top:calc(var(--header-h) + 14px);
+}
+body{
+  margin:0;
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px;
+  line-height:1.6;
+  color:var(--body);
+  background:#fff;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img,svg{display:block;max-width:100%}
+h1,h2,h3,h4,p,ul{margin:0}
+ul{padding:0;list-style:none}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+:focus-visible{outline:3px solid rgba(255,107,26,.55);outline-offset:2px;border-radius:6px}
+
+/* ============ LAYOUT ============ */
+.wrap{width:100%;max-width:var(--wrap);margin-inline:auto;padding-inline:20px}
+section{padding-block:56px}
+@media(min-width:900px){ section{padding-block:88px} }
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:7px;
+  font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--accent-dark);margin-bottom:10px;
+}
+.eyebrow::before{content:"";width:18px;height:2px;border-radius:2px;background:var(--accent)}
+
+h1{
+  font-size:clamp(2rem,8.4vw,3.5rem);
+  line-height:1.06;
+  letter-spacing:-.025em;
+  font-weight:800;
+  color:#fff;
+  text-wrap:balance;
+}
+h2{
+  font-size:clamp(1.5rem,5.6vw,2.4rem);
+  line-height:1.15;
+  letter-spacing:-.022em;
+  font-weight:800;
+  color:var(--ink);
+  text-wrap:balance;
+}
+.section-sub{margin-top:10px;font-size:15.5px;max-width:52ch}
+.section-head{margin-bottom:28px}
+
+/* ============ BUTTONS ============ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:54px;padding:0 22px;
+  border-radius:14px;border:1.5px solid transparent;
+  font-size:16px;font-weight:700;letter-spacing:-.01em;
+  cursor:pointer;
+  transition:transform .14s ease,background .2s ease,box-shadow .2s ease,border-color .2s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+.btn:active{transform:scale(.975)}
+.btn svg{flex:none}
+
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 10px 24px rgba(255,107,26,.30)}
+.btn-primary:hover{background:var(--accent-dark)}
+
+.btn-ghost{
+  background:rgba(255,255,255,.07);
+  color:#fff;
+  border-color:rgba(255,255,255,.26);
+  backdrop-filter:blur(6px);
+}
+.btn-ghost:hover{background:rgba(255,255,255,.14)}
+
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-2)}
+
+.btn-outline{background:#fff;color:var(--navy);border-color:var(--line)}
+.btn-outline:hover{border-color:#c9d3da}
+
+/* ============ HEADER ============ */
+.site-header{
+  position:sticky;top:0;z-index:60;
+  background:rgba(10,30,46,.88);
+  -webkit-backdrop-filter:blur(14px);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(255,255,255,.07);
+  transition:background .25s ease,box-shadow .25s ease;
+}
+.site-header.scrolled{
+  background:rgba(8,24,38,.98);
+  box-shadow:0 6px 24px rgba(0,0,0,.22);
+}
+.header-inner{
+  height:var(--header-h);
+  display:flex;align-items:center;gap:10px;
+}
+
+/* brand */
+.brand{display:flex;align-items:center;gap:9px;margin-right:auto;min-width:0}
+.brand-mark{
+  width:34px;height:34px;flex:none;
+  display:grid;place-items:center;
+  background:linear-gradient(150deg,var(--accent),#FF8A3D);
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(255,107,26,.35);
+}
+.brand-mark svg{width:19px;height:19px;stroke:#fff}
+.brand-text{
+  font-size:16.5px;font-weight:800;letter-spacing:-.02em;color:#fff;
+  white-space:nowrap;
+}
+.brand-text span{color:var(--accent)}
+
+/* header icon buttons */
+.icon-btn{
+  width:44px;height:44px;flex:none;
+  display:grid;place-items:center;
+  border-radius:12px;border:1.5px solid rgba(255,255,255,.18);
+  background:rgba(255,255,255,.06);
+  color:#fff;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  transition:background .2s ease,transform .14s ease;
+}
+.icon-btn:active{transform:scale(.94)}
+.icon-btn.call{
+  background:var(--accent);border-color:var(--accent);
+  box-shadow:0 6px 16px rgba(255,107,26,.34);
+}
+.icon-btn svg{width:20px;height:20px}
+
+/* desktop nav */
+.nav{display:none}
+@media(min-width:900px){
+  .nav{display:flex;align-items:center;gap:26px;margin-right:22px}
+  .nav a{
+    font-size:14.5px;font-weight:600;color:rgba(255,255,255,.82);
+    transition:color .18s ease;
+  }
+  .nav a:hover{color:#fff}
+  .header-inner .icon-btn{display:none}
+  .btn-header{display:inline-flex !important}
+}
+.btn-header{display:none;min-height:44px;padding:0 18px;font-size:14.5px;border-radius:11px}
+
+/* mobile menu */
+.mobile-menu{
+  position:fixed;left:0;right:0;top:var(--header-h);z-index:59;
+  background:#08182A;
+  border-bottom:1px solid rgba(255,255,255,.08);
+  padding:8px 20px 24px;
+  transform:translateY(-10px);
+  opacity:0;visibility:hidden;
+  transition:opacity .22s ease,transform .22s ease,visibility .22s;
+  max-height:calc(100dvh - var(--header-h));
+  overflow-y:auto;
+}
+.mobile-menu.open{opacity:1;visibility:visible;transform:none}
+.mobile-menu a.m-link{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:15px 2px;
+  font-size:16.5px;font-weight:600;color:#fff;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.mobile-menu a.m-link svg{width:16px;height:16px;stroke:rgba(255,255,255,.35)}
+.mobile-menu .btn{width:100%;margin-top:18px}
+@media(min-width:900px){ .mobile-menu{display:none} }
+
+/* ============ HERO ============ */
+.hero{
+  position:relative;
+  padding:38px 0 54px;
+  background:
+    radial-gradient(120% 90% at 82% -10%, #17527A 0%, rgba(23,82,122,0) 58%),
+    radial-gradient(90% 70% at 0% 100%, rgba(255,107,26,.16) 0%, rgba(255,107,26,0) 60%),
+    linear-gradient(180deg,#0A1E2E 0%, #081828 100%);
+  color:#fff;
+  overflow:hidden;
+}
+.hero::after{
+  content:"";
+  position:absolute;inset:0;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:100% 44px;
+  mask-image:linear-gradient(180deg,#000 0%,transparent 70%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative;z-index:1}
+
+.rating-pill{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:999px;
+  padding:7px 14px 7px 8px;
+  font-size:13px;font-weight:600;color:rgba(255,255,255,.9);
+  margin-bottom:18px;
+}
+.stars{display:inline-flex;gap:1.5px}
+.stars svg{width:13px;height:13px;fill:#FFB020}
+
+.hero p.lede{
+  margin-top:16px;
+  font-size:16px;
+  line-height:1.62;
+  color:rgba(255,255,255,.76);
+  max-width:44ch;
+}
+.hero-cta{
+  display:grid;gap:10px;
+  margin-top:26px;
+}
+@media(min-width:560px){
+  .hero-cta{display:flex;flex-wrap:wrap}
+  .hero-cta .btn{min-width:200px}
+}
+
+.hero-chips{
+  display:flex;flex-wrap:wrap;gap:8px;
+  margin-top:26px;
+}
+.hero-chips li{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:12.5px;font-weight:600;color:rgba(255,255,255,.82);
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.1);
+  padding:7px 12px;border-radius:999px;
+}
+.hero-chips svg{width:13px;height:13px;stroke:#4ADE80;flex:none}
+
+/* ============ STATS ============ */
+.stats-section{
+  position:relative;z-index:2;
+  padding-block:0;
+  margin-top:-30px;
+}
+.stats-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:20px;
+  box-shadow:var(--shadow);
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  overflow:hidden;
+}
+.stat{
+  padding:20px 14px;
+  text-align:center;
+  border-bottom:1px solid var(--line);
+}
+.stat:nth-child(odd){border-right:1px solid var(--line)}
+.stat:nth-child(n+3){border-bottom:none}
+.stat b{
+  display:block;
+  font-size:clamp(1.35rem,5.6vw,1.9rem);
+  font-weight:800;letter-spacing:-.03em;color:var(--navy);line-height:1.1;
+}
+.stat span{font-size:12px;font-weight:600;color:#7A8A97;letter-spacing:.02em}
+@media(min-width:760px){
+  .stats-card{grid-template-columns:repeat(4,1fr)}
+  .stat{border-bottom:none !important;border-right:1px solid var(--line)}
+  .stat:last-child{border-right:none}
+}
+
+/* ============ SERVICES ============ */
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+}
+@media(max-width:359px){ .services-grid{grid-template-columns:1fr} }
+@media(min-width:820px){ .services-grid{grid-template-columns:repeat(3,1fr);gap:16px} }
+
+.svc{
+  position:relative;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px 16px 20px;
+  box-shadow:var(--shadow-sm);
+  transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;
+}
+.svc:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#D7DFE5}
+.svc-icon{
+  width:42px;height:42px;border-radius:12px;
+  display:grid;place-items:center;
+  background:linear-gradient(150deg,#FFF1E8,#FFE2D1);
+  margin-bottom:13px;
+}
+.svc-icon svg{width:21px;height:21px;stroke:var(--accent-dark)}
+.svc h3{
+  font-size:15px;font-weight:700;color:var(--ink);
+  letter-spacing:-.012em;margin-bottom:4px;
+}
+.svc p{font-size:12.8px;line-height:1.5;color:#6C7B88}
+
+/* ============ STORM BAND ============ */
+.storm-band{
+  background:linear-gradient(135deg,#0A1E2E 0%,#143A57 100%);
+  color:#fff;
+  padding-block:44px;
+  position:relative;overflow:hidden;
+}
+.storm-band::before{
+  content:"";position:absolute;top:-40%;right:-15%;
+  width:320px;height:320px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,107,26,.30),transparent 68%);
+  pointer-events:none;
+}
+.storm-band .wrap{position:relative;z-index:1}
+.storm-band h2{color:#fff;font-size:clamp(1.35rem,5.2vw,2rem)}
+.storm-band p{margin-top:10px;color:rgba(255,255,255,.75);font-size:15px;max-width:50ch}
+.storm-band .btn{margin-top:22px;width:100%}
+@media(min-width:640px){ .storm-band .btn{width:auto} }
+
+/* ============ REVIEWS ============ */
+.reviews-section{background:var(--soft)}
+.reviews-track{
+  display:flex;gap:12px;
+  overflow-x:auto;
+  scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;
+  margin-inline:-20px;
+  padding:4px 20px 18px;
+  scrollbar-width:none;
+}
+.reviews-track::-webkit-scrollbar{display:none}
+.review{
+  flex:0 0 84%;
+  scroll-snap-align:center;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:20px 18px;
+  box-shadow:var(--shadow-sm);
+}
+@media(min-width:760px){
+  .reviews-track{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-inline:0;padding:0;overflow:visible}
+  .review{flex:none}
+}
+.review .stars{margin-bottom:12px}
+.review .stars svg{width:15px;height:15px}
+.review blockquote{
+  margin:0;font-size:14.5px;line-height:1.62;color:var(--ink);font-weight:500;
+}
+.review .who{
+  display:flex;align-items:center;gap:10px;margin-top:16px;
+  padding-top:14px;border-top:1px solid var(--line);
+}
+.avatar{
+  width:34px;height:34px;flex:none;border-radius:50%;
+  display:grid;place-items:center;
+  background:var(--navy);color:#fff;
+  font-size:13px;font-weight:700;
+}
+.who-meta strong{display:block;font-size:13.5px;color:var(--ink);font-weight:700;line-height:1.3}
+.who-meta span{font-size:12px;color:#8794A0}
+
+/* ============ AREAS ============ */
+.areas-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.areas-list li{
+  font-size:13.5px;font-weight:600;color:var(--navy);
+  background:#fff;
+  border:1px solid var(--line);
+  padding:9px 15px;border-radius:999px;
+  box-shadow:var(--shadow-sm);
+}
+.areas-note{
+  margin-top:20px;font-size:14px;color:#6C7B88;
+}
+.areas-note a{color:var(--accent-dark);font-weight:700;border-bottom:1.5px solid rgba(255,107,26,.35)}
+
+/* ============ QUOTE FORM ============ */
+.quote-section{background:var(--soft)}
+.quote-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:var(--shadow);
+  padding:22px 18px 26px;
+}
+@media(min-width:640px){ .quote-card{padding:34px 32px} }
+
+.form-grid{display:grid;gap:15px}
+@media(min-width:640px){
+  .form-grid{grid-template-columns:1fr 1fr}
+  .field-full{grid-column:1 / -1}
+}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:13px;font-weight:700;color:var(--ink);letter-spacing:-.005em}
+.field label .req{color:var(--accent)}
+
+.field input,.field select,.field textarea{
+  width:100%;
+  font-family:inherit;
+  font-size:16px; /* prevents iOS zoom */
+  color:var(--ink);
+  background:#fff;
+  border:1.5px solid #DDE4E9;
+  border-radius:12px;
+  padding:14px 15px;
+  min-height:52px;
+  transition:border-color .18s ease,box-shadow .18s ease;
+  -webkit-appearance:none;appearance:none;
+}
+.field textarea{min-height:96px;resize:vertical;line-height:1.55}
+.field input::placeholder,.field textarea::placeholder{color:#9AA8B3}
+.field input:focus,.field select:focus,.field textarea:focus{
+  outline:none;
+  border-color:var(--accent);
+  box-shadow:0 0 0 4px rgba(255,107,26,.13);
+}
+.field select{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%234A5C6B' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;
+  background-position:right 14px center;
+  padding-right:44px;
+  cursor:pointer;
+}
+.field select:invalid{color:#9AA8B3}
+
+.field.invalid input,.field.invalid select{border-color:#E0483C;box-shadow:0 0 0 4px rgba(224,72,60,.10)}
+.err{
+  font-size:12.5px;font-weight:600;color:#D93B2F;
+  min-height:0;display:none;
+}
+.field.invalid .err{display:block}
+
+.form-foot{margin-top:20px}
+.form-foot .btn{width:100%}
+.form-fine{
+  margin-top:12px;font-size:12.5px;color:#8794A0;text-align:center;line-height:1.5;
+}
+.form-fine a{color:var(--navy);font-weight:700}
+
+/* success state */
+.form-success{
+  display:none;
+  text-align:center;
+  padding:20px 6px 8px;
+}
+.form-success.show{display:block;animation:pop .35s ease}
+@keyframes pop{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:none}}
+.success-ico{
+  width:64px;height:64px;margin:0 auto 18px;border-radius:50%;
+  display:grid;place-items:center;
+  background:#E9F9EF;
+}
+.success-ico svg{width:30px;height:30px;stroke:#16A34A}
+.form-success h3{font-size:20px;font-weight:800;color:var(--ink);letter-spacing:-.02em}
+.form-success p{margin-top:8px;font-size:14.5px;color:var(--body)}
+.form-success .btn{margin-top:22px}
+
+/* ============ FOOTER ============ */
+.site-footer{
+  background:var(--navy);
+  color:rgba(255,255,255,.7);
+  padding-block:44px 34px;
+  font-size:14px;
+}
+.footer-brand{
+  display:flex;align-items:center;gap:10px;margin-bottom:18px;
+}
+.footer-brand .brand-text{font-size:17px}
+.footer-contact{display:grid;gap:14px;margin-bottom:26px}
+.footer-contact a,.footer-contact div{
+  display:flex;align-items:flex-start;gap:11px;
+  color:rgba(255,255,255,.82);
+  font-size:14.5px;line-height:1.5;
+}
+.footer-contact svg{width:18px;height:18px;stroke:var(--accent);flex:none;margin-top:2px}
+.footer-contact a:hover{color:#fff}
+.footer-contact strong{display:block;color:#fff;font-weight:700}
+
+.footer-hours{
+  border-top:1px solid rgba(255,255,255,.1);
+  border-bottom:1px solid rgba(255,255,255,.1);
+  padding-block:16px;
+  display:grid;gap:6px;
+  font-size:13.5px;
+  margin-bottom:22px;
+}
+.footer-hours div{display:flex;justify-content:space-between;gap:16px}
+.footer-hours b{color:#fff;font-weight:600}
+.footer-hours .open-now{color:#4ADE80;font-weight:700}
+
+.footer-legal{
+  font-size:12.5px;color:rgba(255,255,255,.42);line-height:1.7;
+}
+.footer-legal a{color:rgba(255,255,255,.62)}
+.footer-legal a:hover{color:#fff}
+@media(min-width:820px){
+  .footer-top{display:grid;grid-template-columns:1.2fr 1fr;gap:48px}
+}
+
+/* ============ STICKY ACTION BAR ============ */
+.action-bar{
+  position:fixed;left:0;right:0;bottom:0;z-index:70;
+  display:flex;gap:8px;
+  padding:9px 12px calc(9px + env(safe-area-inset-bottom));
+  background:rgba(255,255,255,.95);
+  -webkit-backdrop-filter:blur(16px);
+  backdrop-filter:blur(16px);
+  border-top:1px solid var(--line);
+  box-shadow:0 -4px 20px rgba(10,30,46,.08);
+}
+.action-bar a{
+  flex:1;
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  height:50px;border-radius:13px;
+  font-size:13.5px;font-weight:700;letter-spacing:-.01em;
+  -webkit-tap-highlight-color:transparent;
+  transition:transform .14s ease,background .2s ease;
+}
+.action-bar a:active{transform:scale(.96)}
+.action-bar svg{width:17px;height:17px;flex:none}
+.action-bar .ab-call{background:var(--accent);color:#fff;box-shadow:0 6px 16px rgba(255,107,26,.30)}
+.action-bar .ab-text{background:#fff;color:var(--navy);border:1.5px solid var(--line)}
+.action-bar .ab-quote{background:var(--navy);color:#fff}
+@media(min-width:900px){ .action-bar{display:none} }
+@media(max-width:899px){
+  body{padding-bottom:calc(var(--bar-h) + env(safe-area-inset-bottom) + 14px)}
+}
+
+/* ============ REVEAL ANIMATION ============ */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.3,1)}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important}
+}
+
+/* ============ SKIP LINK ============ */
+.skip{
+  position:absolute;left:-9999px;top:8px;z-index:100;
+  background:#fff;color:var(--navy);padding:12px 18px;border-radius:10px;font-weight:700;
+}
+.skip:focus{left:12px}
+</style>
+</head>
+
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+
+    <a href="#" class="brand" aria-label="Coastline Roofing — home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/>
+        </svg>
+      </span>
+      <span class="brand-text">JJ Quality Builders<span>Roofing</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#areas">Service Area</a>
+      <a href="#quote">Free Estimate</a>
+    </nav>
+
+    <a href="tel:+13053003937" class="btn btn-primary btn-header">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+      </svg>
+      (305) 300 - 3937  
+    </a>
+
+    <a href="tel:+13053003937" class="icon-btn call" aria-label="Call Coastline Roofing now">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+      </svg>
+    </a>
+
+    <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg id="menuIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 7h16M4 12h16M4 17h16"/>
+      </svg>
+    </button>
+
+  </div>
+</header>
+
+<!-- mobile menu panel -->
+<div class="mobile-menu" id="mobileMenu">
+  <a class="m-link" href="#services">Roofing Services
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+  </a>
+  <a class="m-link" href="#reviews">Customer Reviews
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+  </a>
+  <a class="m-link" href="#areas">Service Area
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+  </a>
+  <a class="m-link" href="#quote">Free Estimate
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
+  </a>
+  <a href="tel:+13053003937" class="btn btn-primary">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+    </svg>
+    Call (305) 300 3937
+  </a>
+</div>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="rating-pill">
+        <span class="stars" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+        </span>
+        4.9 · 312 Google reviews
+      </div>
+
+      <h1>JJ Quality Builders Roofing Done Right</h1>
+
+      <p class="lede">
+        Roof repair, replacement and storm damage restoration for Miami and Broward County homes.
+        Licensed &amp; insured, locally owned, with a 25-year workmanship warranty.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#quote" class="btn btn-primary">
+          Get My Free Estimate
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6"/>
+          </svg>
+        </a>
+        <a href="tel:+19545550142" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+          </svg>
+          (305) 300 - 3937
+        </a>
+      </div>
+
+      <ul class="hero-chips">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free Roof Inspections</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> 24/7 Storm Response</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="stats-section" aria-label="Company highlights">
+    <div class="wrap">
+      <div class="stats-card reveal">
+        <div class="stat"><b>17+</b><span>Years in Broward</span></div>
+        <div class="stat"><b>2,400+</b><span>Roofs Completed</span></div>
+        <div class="stat"><b>4.9★</b><span>Google Rating</span></div>
+        <div class="stat"><b>24/7</b><span>Storm Response</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">What We Do</span>
+        <h2>Roofing services built for South Florida weather</h2>
+        <p class="section-sub">Hurricane-rated materials, code-compliant installs, and honest pricing — no surprises.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="svc reveal">
+          <div class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/><path d="M10 20v-5h4v5"/></svg>
+          </div>
+          <h3>Roof Replacement</h3>
+          <p>Full tear-off &amp; install with a 25-year workmanship warranty.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5.3 5.3l-8.6 8.6a2.8 2.8 0 0 1-4-4l8.6-8.6-1.3-1.3Z"/><path d="m3 3 4 4"/></svg>
+          </div>
+          <h3>Roof Repair</h3>
+          <p>Leaks, missing shingles, flashing and tile repair — same week.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 0 0 .9-8.9 6 6 0 0 0-11.6 1.4A3.8 3.8 0 0 0 7 19h10.5Z"/><path d="m13 9-3 4h4l-2 4"/></svg>
+          </div>
+          <h3>Storm Damage</h3>
+          <p>Emergency tarping, inspections and full insurance claim support.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M9 8h6M9 12h6"/><path d="m9.5 16.5 1.5 1.5 3-3"/></svg>
+          </div>
+          <h3>Roof Inspection</h3>
+          <p>Free 21-point roof check with a written photo report.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v5c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V7l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Metal Roofing</h3>
+          <p>Standing-seam metal with a 50-year lifespan and wind rating.</p>
+        </article>
+
+        <article class="svc reveal">
+          <div class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 9h.01M15 9h.01M9 13h.01M15 13h.01M10 21v-4h4v4"/></svg>
+          </div>
+          <h3>Commercial</h3>
+          <p>Flat roofs, TPO systems and reflective roof coatings.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= STORM BAND ================= -->
+  <section class="storm-band">
+    <div class="wrap reveal">
+      <span class="eyebrow" style="color:#FFB58A">Emergency</span>
+      <h2>Storm damage? We’re on your roof within 24 hours.</h2>
+      <p>Active leak, missing shingles or a fallen branch? We tarp, document and handle the insurance paperwork for you.</p>
+      <a href="tel:+13053003937" class="btn btn-primary">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+        </svg>
+        Call our 24/7 line
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= REVIEWS ================= -->
+  <section id="reviews" class="reviews-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Reviews</span>
+        <h2>Neighbors in Fort Lauderdale trust us</h2>
+        <p class="section-sub">4.9 average across 312 verified Google reviews.</p>
+      </div>
+
+      <div class="reviews-track">
+
+        <article class="review reveal">
+          <span class="stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          </span>
+          <blockquote>“Called at 8am after a leak in the ceiling — they were on the roof by noon and finished the repair the same day. Fair price, no upselling.”</blockquote>
+          <div class="who">
+            <span class="avatar" aria-hidden="true">MR</span>
+            <span class="who-meta"><strong>Maria R.</strong><span>Victoria Park, Fort Lauderdale</span></span>
+          </div>
+        </article>
+
+        <article class="review reveal">
+          <span class="stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          </span>
+          <blockquote>“Full roof replacement after the hurricane. They handled the insurance adjuster for us and the crew cleaned up every single nail. Outstanding.”</blockquote>
+          <div class="who">
+            <span class="avatar" aria-hidden="true">JD</span>
+            <span class="who-meta"><strong>James D.</strong><span>Coral Ridge, Fort Lauderdale</span></span>
+          </div>
+        </article>
+
+        <article class="review reveal">
+          <span class="stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
+          </span>
+          <blockquote>“Free inspection, honest answer: my roof had 5 more years. They could have sold me a new one and didn’t. That’s why I’ll use them again.”</blockquote>
+          <div class="who">
+            <span class="avatar" aria-hidden="true">LP</span>
+            <span class="who-meta"><strong>Linda P.</strong><span>Wilton Manors</span></span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= AREAS ================= -->
+  <section id="areas">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Service Area</span>
+        <h2>Your local Miami and Fort Lauderdale roofer</h2>
+        <p class="section-sub">Based on East Las Olas Boulevard, serving all of Broward County.</p>
+      </div>
+
+      <ul class="areas-list reveal">
+        <li>Miami Florida</li>
+        <li>Broward</li>
+        <!-- <li>Oakland Park</li>
+        <li>Lauderdale-by-the-Sea</li>
+        <li>Pompano Beach</li>
+        <li>Plantation</li>
+        <li>Sunrise</li>
+        <li>Hollywood</li>
+        <li>Coral Springs</li>
+        <li>Deerfield Beach</li>
+        <li>Davie</li>
+        <li>Boca Raton</li> -->
+      </ul>
+
+      <p class="areas-note reveal">
+        Not on the list? <a href="tel:+13053003937">Call (305) 300-3937</a> — we probably cover you.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= QUOTE FORM ================= -->
+  <section id="quote" class="quote-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Free Estimate</span>
+        <h2>Get your free roof estimate</h2>
+        <p class="section-sub">Tell us a little about your roof. We’ll call you back within one business hour.</p>
+      </div>
+
+      <div class="quote-card reveal">
+
+        <form id="quoteForm" class="form-grid" novalidate>
+
+          <div class="field">
+            <label for="name">Full name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith"
+                   autocomplete="name" inputmode="text" aria-describedby="nameErr">
+            <span class="err" id="nameErr">Please enter your name.</span>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone number <span class="req">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="(305) 300-3937"
+                   autocomplete="tel" inputmode="tel" aria-describedby="phoneErr">
+            <span class="err" id="phoneErr">Enter a valid 10-digit phone number.</span>
+          </div>
+
+          <div class="field field-full">
+            <label for="email">Email <span style="font-weight:500;color:#8794A0">(optional)</span></label>
+            <input type="email" id="email" name="email" placeholder="jane@email.com"
+                   autocomplete="email" inputmode="email" aria-describedby="emailErr">
+            <span class="err" id="emailErr">Please enter a valid email address.</span>
+          </div>
+
+          <div class="field field-full">
+            <label for="service">What do you need? <span class="req">*</span></label>
+            <select id="service" name="service" required aria-describedby="serviceErr">
+              <option value="" selected disabled>Select a service…</option>
+              <option>Roof Replacement</option>
+              <option>Roof Repair / Leak</option>
+              <option>Storm Damage</option>
+              <option>Free Roof Inspection</option>
+              <option>Metal Roofing</option>
+              <option>Commercial Roofing</option>
+              <option>Something else</option>
+            </select>
+            <span class="err" id="serviceErr">Please choose a service.</span>
+          </div>
+
+          <div class="field field-full">
+            <label for="address">Property address or ZIP <span style="font-weight:500;color:#8794A0">(optional)</span></label>
+            <input type="text" id="address" name="address" placeholder="33301"
+                   autocomplete="postal-code">
+          </div>
+
+          <div class="field field-full">
+            <label for="message">Anything else we should know? <span style="font-weight:500;color:#8794A0">(optional)</span></label>
+            <textarea id="message" name="message" placeholder="Water stain on the ceiling in the master bedroom…"></textarea>
+          </div>
+
+          <div class="field-full form-foot">
+            <button type="submit" class="btn btn-primary" id="submitBtn">
+              Request My Free Estimate
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6"/>
+              </svg>
+            </button>
+            <p class="form-fine">
+              No obligation. No spam. Or call us directly at
+              <a href="tel:+13053003937">(305) 300-3937</a>.
+            </p>
+          </div>
+
+        </form>
+
+        <!-- success state -->
+        <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+          <div class="success-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6 9 17l-5-5"/>
+            </svg>
+          </div>
+          <h3>Request received!</h3>
+          <p>Thanks — we’ll call you back within one business hour.<br>Need help right now? Call us at (305) 300-3937.</p>
+          <a href="tel:+13053003937" class="btn btn-navy">Call Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="wrap">
+
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10.5V20h13v-9.5"/>
+            </svg>
+          </span>
+          <span class="brand-text">Coastline<span>Roofing</span></span>
+        </div>
+
+        <div class="footer-contact">
+          <a href="tel:+13053003937">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <span><strong>(954) 555-0142</strong>Call or text anytime</span>
+          </a>
+
+          <a href="https://maps.google.com/?q=1234+E+Las+Olas+Blvd+Fort+Lauderdale+FL+33301" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <!-- <span><strong>1234 E Las Olas Blvd</strong>Fort Lauderdale, FL 33301</span> -->
+          </a>
+
+          <a href="mailto:jjqualitybuildersinc@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/></svg>
+            <span><strong>jjqualitybuildersinc@gmail.com</strong>We reply within 1 business hour</span>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-hours">
+          <div><b>Mon – Fri</b><span>7:00 AM – 6:00 PM</span></div>
+          <div><b>Saturday</b><span>8:00 AM – 4:00 PM</span></div>
+          <div><b>Sunday</b><span>Emergency only</span></div>
+          <div><b>Storm line</b><span class="open-now">Open 24/7</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="footer-legal">
+      &copy; <span id="year">2026</span> JJ Quality Builders, Inc. · FL License #CCC1330000 · Licensed &amp; Insured<br>
+      Serving Miami &amp; all of Broward County.
+    </p>
+
+  </div>
+</footer>
+
+<!-- ================= STICKY ACTION BAR ================= -->
+<div class="action-bar" role="region" aria-label="Quick contact">
+  <a href="tel:+13053003937" class="ab-call">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+    </svg>
+    Call
+  </a>
+  <a href="sms:+19545550142" class="ab-text">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.8-.8L3 21l1.9-5.2A8.4 8.4 0 0 1 12 3.1a8.4 8.4 0 0 1 9 8.4Z"/>
+    </svg>
+    Text
+  </a>
+  <a href="#quote" class="ab-quote">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M9 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z"/><path d="M9 8h6M9 12h6M9 16h3"/>
+    </svg>
+    Free Quote
+  </a>
+</div>
+
+<!-- ================= LOCAL SEO SCHEMA ================= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "name": "Coastline Roofing",
+  "description": "Licensed and insured roofing contractor in Fort Lauderdale, FL. Roof repair, replacement, storm damage restoration and free roof inspections across Broward County.",
+  "telephone": "+1-305-300-3937",
+  "email": "jjqualitybuildersinc@gmail.com",
+  "url": "https://jj-qualitybuilders.com",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    // "streetAddress": "1234 E Las Olas Blvd",
+    // "addressLocality": "Fort Lauderdale",
+    // "addressRegion": "FL",
+    // "postalCode": "33301",
+    // "addressCountry": "US"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 26.1193, "longitude": -80.1373 },
+  "areaServed": [
+    "Fort Lauderdale FL", "Wilton Manors FL", "Oakland Park FL",
+    "Miami",
+    "Pompano Beach FL", "Plantation FL", "Hollywood FL",
+    "Coral Springs FL", "Deerfield Beach FL", "Davie FL", "Boca Raton FL","South Florida"
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "16:00" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "312" }
+}
+</script>
+
+<!-- ================= JS ================= -->
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- 1. Header shadow on scroll ---------- */
+  var header = document.getElementById('header');
+  function onScroll() {
+    header.classList.toggle('scrolled', window.scrollY > 8);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- 2. Mobile menu ---------- */
+  var menuBtn  = document.getElementById('menuBtn');
+  var menu     = document.getElementById('mobileMenu');
+  var menuIcon = document.getElementById('menuIcon');
+
+  var ICON_BARS = '<path d="M4 7h16M4 12h16M4 17h16"/>';
+  var ICON_X    = '<path d="M6 6l12 12M18 6L6 18"/>';
+
+  function setMenu(open) {
+    menu.classList.toggle('open', open);
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    menuIcon.innerHTML = open ? ICON_X : ICON_BARS;
+  }
+
+  menuBtn.addEventListener('click', function () {
+    setMenu(!menu.classList.contains('open'));
+  });
+
+  // close menu when a link inside is tapped
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () { setMenu(false); });
+  });
+
+  // close on Escape
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && menu.classList.contains('open')) {
+      setMenu(false);
+      menuBtn.focus();
+    }
+  });
+
+  // close if resized to desktop
+  window.addEventListener('resize', function () {
+    if (window.innerWidth >= 900) setMenu(false);
+  });
+
+  /* ---------- 3. Scroll reveal ---------- */
+  var reveals = document.querySelectorAll('.reveal');
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (reduceMotion || !('IntersectionObserver' in window)) {
+    reveals.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    reveals.forEach(function (el) { io.observe(el); });
+  }
+
+  /* ---------- 4. Phone auto-format ---------- */
+  var phone = document.getElementById('phone');
+  phone.addEventListener('input', function () {
+    var d = phone.value.replace(/\D/g, '').slice(0, 10);
+    var out = d;
+    if (d.length > 6)       out = '(' + d.slice(0, 3) + ') ' + d.slice(3, 6) + '-' + d.slice(6);
+    else if (d.length > 3)  out = '(' + d.slice(0, 3) + ') ' + d.slice(3);
+    else if (d.length > 0)  out = '(' + d;
+    phone.value = out;
+  });
+
+  /* ---------- 5. Form validation + submit ---------- */
+  var form      = document.getElementById('quoteForm');
+  var success   = document.getElementById('formSuccess');
+  var submitBtn = document.getElementById('submitBtn');
+
+  var fields = [
+    { el: document.getElementById('name'),    err: 'nameErr',    test: function (v) { return v.trim().length >= 2; } },
+    { el: phone,                              err: 'phoneErr',   test: function (v) { return v.replace(/\D/g, '').length === 10; } },
+    { el: document.getElementById('service'), err: 'serviceErr', test: function (v) { return v !== ''; } },
+    { el: document.getElementById('email'),   err: 'emailErr',   test: function (v) { return v === '' || /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); } }
+  ];
+
+  function wrapOf(el) { return el.closest('.field'); }
+
+  function validateField(f) {
+    var ok = f.test(f.el.value);
+    var wrap = wrapOf(f.el);
+    wrap.classList.toggle('invalid', !ok);
+    f.el.setAttribute('aria-invalid', ok ? 'false' : 'true');
+    return ok;
+  }
+
+  fields.forEach(function (f) {
+    f.el.addEventListener('input', function () {
+      if (wrapOf(f.el).classList.contains('invalid')) validateField(f);
+    });
+    f.el.addEventListener('blur', function () {
+      if (f.el.value !== '') validateField(f);
+    });
+  });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var firstBad = null;
+    fields.forEach(function (f) {
+      var ok = validateField(f);
+      if (!ok && !firstBad) firstBad = f.el;
+    });
+
+    if (firstBad) {
+      firstBad.focus();
+      firstBad.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    /* --- Replace this block with your real form handler / endpoint --- */
+    submitBtn.disabled = true;
+    submitBtn.style.opacity = '.7';
+    submitBtn.textContent = 'Sending…';
+
+    setTimeout(function () {
+      form.style.display = 'none';
+      success.classList.add('show');
+      success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      /* e.g. fetch('/api/lead', { method:'POST', body: new FormData(form) }) */
+    }, 900);
+  });
+
+  /* ---------- 6. Footer year ---------- */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+})();
+</script>
+
+</body>
+</html>
