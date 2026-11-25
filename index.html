@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>JJ Quality Builders | Fort Lauderdale Roofers — Free Estimates</title>
-<meta name="description" content="Fort Lauderdale roofing contractor. Roof repair, replacement, storm damage & inspections. Licensed & insured, 25-year workmanship warranty. Free estimates — call (305) 300-3937.">
+<meta name="description" content="JJ Quality Builders provides residential and commercial roofing, repairs, replacements and inspections across South and Central Florida. Licensed and insured, with free estimates.">
 <meta name="theme-color" content="#0A1E2E">
 <meta name="format-detection" content="telephone=yes">
 
@@ -206,9 +206,10 @@ h2{
   position:relative;
   padding:38px 0 54px;
   background:
+    linear-gradient(90deg,rgba(8,24,40,.76) 0%,rgba(8,24,40,.58) 55%,rgba(8,24,40,.38) 100%),
     radial-gradient(120% 90% at 82% -10%, #17527A 0%, rgba(23,82,122,0) 58%),
     radial-gradient(90% 70% at 0% 100%, rgba(255,107,26,.16) 0%, rgba(255,107,26,0) 60%),
-    linear-gradient(180deg,#0A1E2E 0%, #081828 100%);
+    url("Pics/WhatsApp%20Image%202026-11-24%20at%2011.34.41%20PM%20(2).jpeg") center/cover no-repeat;
   color:#fff;
   overflow:hidden;
 }
@@ -222,15 +223,6 @@ h2{
 }
 .hero .wrap{position:relative;z-index:1}
 
-.rating-pill{
-  display:inline-flex;align-items:center;gap:8px;
-  background:rgba(255,255,255,.08);
-  border:1px solid rgba(255,255,255,.14);
-  border-radius:999px;
-  padding:7px 14px 7px 8px;
-  font-size:13px;font-weight:600;color:rgba(255,255,255,.9);
-  margin-bottom:18px;
-}
 .stars{display:inline-flex;gap:1.5px}
 .stars svg{width:13px;height:13px;fill:#FFB020}
 
@@ -330,23 +322,25 @@ h2{
 .svc p{font-size:12.8px;line-height:1.5;color:#6C7B88}
 
 /* ============ STORM BAND ============ */
-.storm-band{
-  background:linear-gradient(135deg,#0A1E2E 0%,#143A57 100%);
+.about-section{
+  background:
+    linear-gradient(90deg,rgba(10,30,46,.76),rgba(20,58,87,.54)),
+    url("Pics/WhatsApp%20Image%202026-11-24%20at%2011.34.41%20PM%20(1).jpeg") center/cover no-repeat;
   color:#fff;
   padding-block:44px;
   position:relative;overflow:hidden;
 }
-.storm-band::before{
+.about-section::before{
   content:"";position:absolute;top:-40%;right:-15%;
   width:320px;height:320px;border-radius:50%;
   background:radial-gradient(circle,rgba(255,107,26,.30),transparent 68%);
   pointer-events:none;
 }
-.storm-band .wrap{position:relative;z-index:1}
-.storm-band h2{color:#fff;font-size:clamp(1.35rem,5.2vw,2rem)}
-.storm-band p{margin-top:10px;color:rgba(255,255,255,.75);font-size:15px;max-width:50ch}
-.storm-band .btn{margin-top:22px;width:100%}
-@media(min-width:640px){ .storm-band .btn{width:auto} }
+.about-section .wrap{position:relative;z-index:1}
+.about-section h2{color:#fff;font-size:clamp(1.35rem,5.2vw,2rem)}
+.about-section p{margin-top:10px;color:rgba(255,255,255,.85);font-size:15px;max-width:60ch}
+.about-section .btn{margin-top:22px;width:100%}
+@media(min-width:640px){ .about-section .btn{width:auto} }
 
 /* ============ REVIEWS ============ */
 .reviews-section{background:var(--soft)}
@@ -406,7 +400,11 @@ h2{
 .areas-note a{color:var(--accent-dark);font-weight:700;border-bottom:1.5px solid rgba(255,107,26,.35)}
 
 /* ============ QUOTE FORM ============ */
-.quote-section{background:var(--soft)}
+.quote-section{
+  background:
+    linear-gradient(rgba(245,247,249,.70),rgba(245,247,249,.70)),
+    url("Pics/WhatsApp%20Image%202026-11-24%20at%2011.34.41%20PM.jpeg") center/cover no-repeat;
+}
 .quote-card{
   background:#fff;
   border:1px solid var(--line);
@@ -591,7 +589,7 @@ h2{
 
     <nav class="nav" aria-label="Primary">
       <a href="#services">Services</a>
-      <a href="#reviews">Reviews</a>
+      <a href="#reviews">Testimonials</a>
       <a href="#areas">Service Area</a>
       <a href="#quote">Free Estimate</a>
     </nav>
@@ -623,7 +621,7 @@ h2{
   <a class="m-link" href="#services">Roofing Services
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
   </a>
-  <a class="m-link" href="#reviews">Customer Reviews
+  <a class="m-link" href="#reviews">Testimonials
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg>
   </a>
   <a class="m-link" href="#areas">Service Area
@@ -645,22 +643,11 @@ h2{
   <!-- ================= HERO ================= -->
   <section class="hero">
     <div class="wrap">
-      <div class="rating-pill">
-        <span class="stars" aria-hidden="true">
-          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
-          <svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1L12 2z"/></svg>
-        </span>
-        4.9 · 312 Google reviews
-      </div>
-
       <h1>JJ Quality Builders Roofing Done Right</h1>
 
       <p class="lede">
-        Roof repair, replacement and storm damage restoration for Miami and Broward County homes.
-        Licensed &amp; insured, locally owned, with a 25-year workmanship warranty.
+        Residential and commercial roofing across South and Central Florida.
+        Licensed &amp; insured, locally owned, with 35 years of experience.
       </p>
 
       <div class="hero-cta">
@@ -681,7 +668,7 @@ h2{
       <ul class="hero-chips">
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Licensed &amp; Insured</li>
         <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Free Roof Inspections</li>
-        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> 24/7 Storm Response</li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Commercial &amp; Residential Projects</li>
       </ul>
     </div>
   </section>
@@ -690,10 +677,10 @@ h2{
   <section class="stats-section" aria-label="Company highlights">
     <div class="wrap">
       <div class="stats-card reveal">
-        <div class="stat"><b>17+</b><span>Years in Broward</span></div>
+        <div class="stat"><b>35</b><span>Years of Experience</span></div>
         <div class="stat"><b>2,400+</b><span>Roofs Completed</span></div>
-        <div class="stat"><b>4.9★</b><span>Google Rating</span></div>
-        <div class="stat"><b>24/7</b><span>Storm Response</span></div>
+        <div class="stat"><b>1,000+</b><span>Testimonials</span></div>
+        <div class="stat"><b>Quick</b><span>Response</span></div>
       </div>
     </div>
   </section>
@@ -761,17 +748,17 @@ h2{
     </div>
   </section>
 
-  <!-- ================= STORM BAND ================= -->
-  <section class="storm-band">
+  <!-- ================= ABOUT US ================= -->
+  <section id="about" class="about-section">
     <div class="wrap reveal">
-      <span class="eyebrow" style="color:#FFB58A">Emergency</span>
-      <h2>Storm damage? We’re on your roof within 24 hours.</h2>
-      <p>Active leak, missing shingles or a fallen branch? We tarp, document and handle the insurance paperwork for you.</p>
-      <a href="tel:+13053003937" class="btn btn-primary">
+      <span class="eyebrow" style="color:#FFB58A">About Us</span>
+      <h2>Roofing experience you can count on</h2>
+      <p>JJ Quality Builders is a locally owned, licensed and insured roofing company serving residential and commercial customers across South and Central Florida. With 35 years of experience, our team handles roof repairs, replacements, inspections and storm damage restoration, with a 25-year workmanship warranty.</p>
+      <a href="#quote" class="btn btn-primary">
         <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/>
+          <path d="M5 12h14M13 6l6 6-6 6"/>
         </svg>
-        Call our 24/7 line
+        Request a Free Estimate
       </a>
     </div>
   </section>
@@ -780,9 +767,9 @@ h2{
   <section id="reviews" class="reviews-section">
     <div class="wrap">
       <div class="section-head reveal">
-        <span class="eyebrow">Reviews</span>
-        <h2>Neighbors in Fort Lauderdale trust us</h2>
-        <p class="section-sub">4.9 average across 312 verified Google reviews.</p>
+        <span class="eyebrow">Testimonials</span>
+        <h2>What our customers say</h2>
+        <p class="section-sub">Feedback from customers across Florida.</p>
       </div>
 
       <div class="reviews-track">
@@ -798,7 +785,7 @@ h2{
           <blockquote>“Called at 8am after a leak in the ceiling — they were on the roof by noon and finished the repair the same day. Fair price, no upselling.”</blockquote>
           <div class="who">
             <span class="avatar" aria-hidden="true">MR</span>
-            <span class="who-meta"><strong>Maria R.</strong><span>Victoria Park, Fort Lauderdale</span></span>
+            <span class="who-meta"><strong>Maria R.</strong><span>West Palm Beach, Florida</span></span>
           </div>
         </article>
 
@@ -813,7 +800,7 @@ h2{
           <blockquote>“Full roof replacement after the hurricane. They handled the insurance adjuster for us and the crew cleaned up every single nail. Outstanding.”</blockquote>
           <div class="who">
             <span class="avatar" aria-hidden="true">JD</span>
-            <span class="who-meta"><strong>James D.</strong><span>Coral Ridge, Fort Lauderdale</span></span>
+            <span class="who-meta"><strong>James D.</strong><span>Miami, Florida</span></span>
           </div>
         </article>
 
@@ -828,7 +815,7 @@ h2{
           <blockquote>“Free inspection, honest answer: my roof had 5 more years. They could have sold me a new one and didn’t. That’s why I’ll use them again.”</blockquote>
           <div class="who">
             <span class="avatar" aria-hidden="true">LP</span>
-            <span class="who-meta"><strong>Linda P.</strong><span>Wilton Manors</span></span>
+            <span class="who-meta"><strong>Linda P.</strong><span>Orlando, Florida</span></span>
           </div>
         </article>
 
@@ -841,27 +828,17 @@ h2{
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Service Area</span>
-        <h2>Your local Miami and Fort Lauderdale roofer</h2>
-        <p class="section-sub">Based on East Las Olas Boulevard, serving all of Broward County.</p>
+        <h2>Serving South and Central Florida</h2>
+        <p class="section-sub">Residential and commercial roofing services throughout South and Central Florida.</p>
       </div>
 
       <ul class="areas-list reveal">
-        <li>Miami Florida</li>
-        <li>Broward</li>
-        <!-- <li>Oakland Park</li>
-        <li>Lauderdale-by-the-Sea</li>
-        <li>Pompano Beach</li>
-        <li>Plantation</li>
-        <li>Sunrise</li>
-        <li>Hollywood</li>
-        <li>Coral Springs</li>
-        <li>Deerfield Beach</li>
-        <li>Davie</li>
-        <li>Boca Raton</li> -->
+        <li>South Florida</li>
+        <li>Central Florida</li>
       </ul>
 
       <p class="areas-note reveal">
-        Not on the list? <a href="tel:+13053003937">Call (305) 300-3937</a> — we probably cover you.
+        Contact us to confirm service availability in your area: <a href="tel:+13053003937">(305) 300-3937</a>.
       </p>
     </div>
   </section>
@@ -993,14 +970,14 @@ h2{
           <div><b>Mon – Fri</b><span>7:00 AM – 6:00 PM</span></div>
           <div><b>Saturday</b><span>8:00 AM – 4:00 PM</span></div>
           <div><b>Sunday</b><span>Emergency only</span></div>
-          <div><b>Storm line</b><span class="open-now">Open 24/7</span></div>
+          <div><b>Quick response</b><span class="open-now">Call or text our team</span></div>
         </div>
       </div>
     </div>
 
     <p class="footer-legal">
       &copy; <span id="year">2026</span> JJ Quality Builders, Inc. · FL License #CCC1329998 · Licensed &amp; Insured<br>
-      Serving Miami &amp; all of Broward County.
+      Serving South and Central Florida.
     </p>
 
   </div>
@@ -1034,7 +1011,7 @@ h2{
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
   "name": "Coastline Roofing",
-  "description": "Licensed and insured roofing contractor in Fort Lauderdale, FL. Roof repair, replacement, storm damage restoration and free roof inspections across Broward County.",
+  "description": "Licensed and insured residential and commercial roofing contractor serving South and Central Florida. Roof repair, replacement, storm damage restoration and inspections.",
   "telephone": "+1-305-300-3937",
   "email": "jjqualitybuildersinc@gmail.com",
   "url": "https://jj-qualitybuilders.com",
@@ -1048,17 +1025,11 @@ h2{
     // "addressCountry": "US"
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 26.1193, "longitude": -80.1373 },
-  "areaServed": [
-    "Fort Lauderdale FL", "Wilton Manors FL", "Oakland Park FL",
-    "Miami",
-    "Pompano Beach FL", "Plantation FL", "Hollywood FL",
-    "Coral Springs FL", "Deerfield Beach FL", "Davie FL", "Boca Raton FL","South Florida"
-  ],
+  "areaServed": ["South Florida", "Central Florida"],
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "18:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "16:00" }
-  ],
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "312" }
+  ]
 }
 </script>
 
